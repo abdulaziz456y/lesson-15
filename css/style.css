@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --aside-width: 300px;
+}
+
+aside {
+  position: fixed;
+  width: 255px;
+  height: 100vh;
+  background: var(--sidebar-bg, #363740);
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background: #FFF;
+  left: 255px;
+}
+
+main {
+  height: calc(100vh );
+  background: #FFF;
+  padding: 28px;
+}
+
+.dashbord-img {
+  top: 36px;
+  left: 23px;
+  position: absolute;
+}
+
+.dashbord {
+  position: absolute;
+  top: 44px;
+  left: 76px;
+  color: #A4A6B3;
+}
+
+.aside-img-1 {
+  position: absolute;
+  top: 146px;
+  left: 29px;
+}
+
+.aside-Overview {
+  position: absolute;
+  top: 143px;
+  left: 70px;
+  color: var(--main-light-blue, #DDE2FF);
+}
+
+.aside-img-2 {
+  position: absolute;
+  top: 202px;
+  left: 31px;
+}
+
+.aside-Tickets {
+  position: absolute;
+  top: 198px;
+  left: 70px;
+  color: #A4A6B3;
+}
+
+.aside-img-3 {
+  position: absolute;
+  top: 260px;
+  left: 32px;
+}
+
+.aside-Ideas {
+  position: absolute;
+  top: 254px;
+  left: 70px;
+  color: #A4A6B3;
+}
+
+.aside-img-4 {
+  position: absolute;
+  left: 32px;
+  top: 316px;
+}
+
+.aside-Contacts {
+  position: absolute;
+  top: 314px;
+  left: 70px;
+  color: #A4A6B3;
+}
+
+.aside-img-5 {
+  position: absolute;
+  top: 372px;
+  left: 32px;
+}
+
+.aside-Agents {
+  position: absolute;
+  top: 372px;
+  left: 70px;
+  color: #A4A6B3;
+}
+
+.aside-img-6 {
+  position: absolute;
+  top: 428px;
+  left: 32px;
+}
+
+.aside-Articles {
+  position: absolute;
+  top: 426px;
+  left: 70px;
+  color: #A4A6B3;
+}
+
+.aside-a {
+  bottom: 81px;
+  left: 78px;
+  position: absolute;
+  color: #A4A6B3;
+}
+
+.aside-img-7 {
+  position: absolute;
+  bottom: 72px;
+  left: 36px;
+}
+
+.aside-img-8 {
+  position: absolute;
+  bottom: 28px;
+  left: 39px;
+}
+
+.aside-b {
+  color: #A4A6B3;
+  position: absolute;
+  bottom: 28px;
+  left: 78px;
+}
+
+.vector-img {
+  position: absolute;
+  top: 43px;
+  left: 29px;
+}
+
+.header-text {
+  position: absolute;
+  top: 44px;
+  left: 982px;
+}
+
+.header-img {
+  position: absolute;
+  border-radius: 50%;
+  left: 1115px;
+  top: 31px;
+}
+
+.main-Overview {
+  position: absolute;
+  left: 283px;
+  top: 128px;
+}
+
+.main-add {
+  position: absolute;
+left: 1350px;
+top: 142px;
+}
+
+.a-1 {
+  position: absolute;
+  left: 360px;
+  top: 205px;
+}
+
+.a-2 {
+  color: green;
+}
+
+.a-3 {
+  color: red;
+}
+
+thead, tr, td {
+  border-collapse: collapse;
+  gap: 133px;
+  display: flex;
+}
+
+.img-2 {
+  position: absolute;
+  left: 302px;
+  top: 200px;
+}
+
+.a-4 {
+  position: absolute;
+  left: 255px;
+}
+
+.a-5 {
+  position: absolute;
+  top: 50px;
+}
+
+.a-6 {
+  position: absolute;
+  left: 437px;
+  color: green;
+}
+
+.a-8 {
+  position: absolute;
+  left: 622px;
+  color: red;
+}
+
+.a-7 {
+  position: absolute;
+  left: 1170px;
+  position: fixed;
+}
+
+.img-3 {
+  position: absolute;
+  left: 302px;
+  top: 245px;
+}
+
+.a-9 {
+  position: absolute;
+  top: 95px;
+}
+
+.img-4 {
+  position: absolute;
+  left: 302px;
+  top: 290px;
+}
+
+.a-10 {
+  position: absolute;
+  top: 140px;
+}
+
+.img-5 {
+  position: absolute;
+  left: 302px;
+  top: 380px;
+}
+
+.a-11 {
+  position: absolute;
+  top: 185px;
+}
+
+.img-6 {
+  position: absolute;
+  left: 302px;
+  top: 3425px;
+}
+
+
+.a-12 {
+  position: absolute;
+  top: 230px;
+}
+
+.img-7 {
+  position: absolute;
+  left: 302px;
+  top: 470px;
+}
+
+.a-13 {
+  position: absolute;
+  top: 275px;
+}
+
+.img-8 {
+  position: absolute;
+  left: 302px;
+  top: 515px;
+}
+
+.a-14 {
+  position: absolute;
+  top: 320px;
+}
+
+.img-9 {
+  position: absolute;
+  left: 302px;
+  top: 560px;
+}
+
+.a-15 {
+  position: absolute;
+  top: 365px;
+}
+
+.a-10 {
+  position: absolute;
+  left: 302px;
+  top: 605px;
+}
